@@ -16,6 +16,8 @@
 		EE8E1F93236DFA080085D0BD /* ScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E1F92236DFA080085D0BD /* ScreenOneViewController.swift */; };
 		EE8E1F95236DFA120085D0BD /* ScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E1F94236DFA120085D0BD /* ScreenTwoViewController.swift */; };
 		EE8E1F97236DFA1C0085D0BD /* ScreenThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E1F96236DFA1C0085D0BD /* ScreenThreeViewController.swift */; };
+		EE8E1F9A236E03BE0085D0BD /* tap.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8E1F99236E03BD0085D0BD /* tap.json */; };
+		EE8E1F9C236E05880085D0BD /* point.json in Resources */ = {isa = PBXBuildFile; fileRef = EE8E1F9B236E05880085D0BD /* point.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		EE8E1F92236DFA080085D0BD /* ScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOneViewController.swift; sourceTree = "<group>"; };
 		EE8E1F94236DFA120085D0BD /* ScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwoViewController.swift; sourceTree = "<group>"; };
 		EE8E1F96236DFA1C0085D0BD /* ScreenThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThreeViewController.swift; sourceTree = "<group>"; };
+		EE8E1F99236E03BD0085D0BD /* tap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tap.json; sourceTree = "<group>"; };
+		EE8E1F9B236E05880085D0BD /* point.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = point.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		EE8E1F7D236DF6A60085D0BD /* WalkThrough */ = {
 			isa = PBXGroup;
 			children = (
+				EE8E1F98236E039A0085D0BD /* Animations */,
 				EE8E1F7E236DF6A60085D0BD /* AppDelegate.swift */,
 				EE8E1F80236DF6A60085D0BD /* SceneDelegate.swift */,
 				EE8E1F84236DF6A60085D0BD /* Main.storyboard */,
@@ -95,6 +100,15 @@
 				EE8E1F96236DFA1C0085D0BD /* ScreenThreeViewController.swift */,
 			);
 			path = WalkThrough;
+			sourceTree = "<group>";
+		};
+		EE8E1F98236E039A0085D0BD /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E1F99236E03BD0085D0BD /* tap.json */,
+				EE8E1F9B236E05880085D0BD /* point.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +172,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8E1F8B236DF6A70085D0BD /* LaunchScreen.storyboard in Resources */,
+				EE8E1F9C236E05880085D0BD /* point.json in Resources */,
+				EE8E1F9A236E03BE0085D0BD /* tap.json in Resources */,
 				EE8E1F88236DF6A70085D0BD /* Assets.xcassets in Resources */,
 				EE8E1F86236DF6A60085D0BD /* Main.storyboard in Resources */,
 			);
